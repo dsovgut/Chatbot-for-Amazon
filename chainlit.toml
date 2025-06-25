@@ -1,0 +1,18 @@
+# Inside chainlit.toml
+
+[UI]
+# Set the name of your application. This appears in the header.
+name = "Global IQ Mobility Advisor"  # Or your preferred name
+
+# Optional: Set the default theme ('light', 'dark', or 'system').
+default_theme = "light"
+
+# --- Add or uncomment this section for Theme Customization ---
+[UI.theme]
+# Set the primary color using your chosen hex code.
+primary_color = "#02afdc"
+
+# You could add other theme settings here later if needed.
+# Example for dark mode override (optional):
+# [UI.theme.dark]
+# primary_color = "#02afdc" # Use a different color for dark mode if desired

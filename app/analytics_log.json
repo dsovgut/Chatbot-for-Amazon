@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "created": "2025-05-29T21:01:53.231308",
+    "version": "1.0",
+    "description": "E-commerce RAG Analytics"
+  },
+  "queries": [
+    {
+      "query": "Find me a nice scooter",
+      "response_time": 5.532867908477783,
+      "embedding_time": 0.19250202178955078,
+      "retrieval_time": 4.340365886688232,
+      "search_mode": "multimodal",
+      "num_products": 8,
+      "similarity_scores": [
+        0.5934440338869421,
+        0.5921624504311755,
+        0.588868099025285,
+        0.5847455329532448,
+        0.5796244685353623,
+        0.5730221988484632,
+        0.5696262162057321,
+        0.5663139208312312
+      ],
+      "avg_similarity": 0.5809758650896796,
+      "timestamp": "2025-05-29T21:03:07.490086"
+    }
+  ],
+  "summary": {
+    "total_queries": 1,
+    "total_response_time": 5.532867908477783,
+    "avg_response_time": 5.532867908477783,
+    "search_modes": {
+      "text": 0,
+      "image": 0,
+      "multimodal": 1
+    },
+    "avg_similarity_score": 0.5809758650896796,
+    "avg_products_retrieved": 8.0
+  }
+}
